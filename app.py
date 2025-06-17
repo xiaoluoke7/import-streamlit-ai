@@ -67,9 +67,9 @@ def list_all_filenames():
 # 明确指定连接到本地的 Ollama 服务
 client = ollama.Client(host='http://localhost:11434') 
 
-st.set_page_config(page_title="广腾AI助手", layout="wide")
+st.set_page_config(page_title="AI助手", layout="wide")
 
-st.title("广腾AI助手 🤖")
+st.title("AI助手 🤖")
 
 # 初始化聊天历史
 if "messages" not in st.session_state:
